@@ -9,7 +9,8 @@ h1{
 }
 
 video{
-    width:500px;
+    height:auto;
+    width:100%;
     
 }
 /*.imgvideo{
@@ -69,17 +70,17 @@ form{
     grid-row:1/2;
     background-color: aqua;
 }
-#two{
+#second{
     grid-row:1/2;
     background-color: black;
 }
-#three{
+#third{
     grid-row:1/2;
-    background-color: blue;
+    background-color: orangered;
 }
 #four{
     grid-row:2/3;
-    background-color: blueviolet;
+    background-color:green;
 }
 #five{
     grid-row:2/3;
@@ -89,7 +90,39 @@ form{
     grid-row:2/3;
     background-color: yellow;
 }
-.Indian dances{
+.indian-dances{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
+}
+
+img{
+    height:500px;
+    width:500px;
+    background-color: red;
+    
+    padding:100px;
+    
+}
+@media(max-width:600px){
+    img{
+        height:500px;
+        width:500px;
+        
+    }
+}
+/*desktop*/
+@media(min-width:1024px){
+    nav{
+        display:flex;
+        flex-direction:row;
+        gap:50px;
+    }
+    .grid{
+        display:grid;
+        grid-template-columns:33% 33% 33%;
+    }
+}
+nav{
+    display:flex;
+    flex-direction:column;
 }
