@@ -92,21 +92,21 @@ form{
 }
 .indian-dances{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+    border:15px solid pink;
 }
 
 img{
     height:500px;
     width:500px;
-    background-color: red;
-    
-    padding:100px;
+    background-color: black;
+    padding:50px;
     
 }
 @media(max-width:600px){
     img{
-        height:500px;
-        width:500px;
+        height:400px;
+        width:400px;
         
     }
 }
