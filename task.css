@@ -1,3 +1,6 @@
+body{
+    background-color: aqua;
+}
 nav{
     display:flex;
     flex-direction:column;

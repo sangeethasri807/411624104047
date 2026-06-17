@@ -24,5 +24,5 @@ input.addEventListener("input",()=>{
 })
 const newvar=document.createElement("h1")
 newvar.textContent="New paragraph";
-document.body.appentChild(newvar);
+document.body.appendChild(newvar);
 newvar.remove()
