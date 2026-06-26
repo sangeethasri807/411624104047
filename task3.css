@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+input{
+    width: 250px;
+    padding: 10px;
+}
+
+button{
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#messages{
+    margin-top: 20px;
+}
+
+.message{
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color:violet;
+    border-radius: 5px;
+}
