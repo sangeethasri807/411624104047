@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "photos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "stack.html",
+		"liveServer.settings.port": 5501
+	}
+}
